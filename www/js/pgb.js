@@ -4,7 +4,12 @@ function init() {
 
 function onDeviceReady() {
 	navigator.notification.beep(2);
-	deviceInfo();
+	businessInfo();
+}
+
+function businessInfo() {
+  info = 'Mateusz Jaskula <br>'
+       + 'Nokia R&D Engineer'
 }
 
 function deviceInfo() {
