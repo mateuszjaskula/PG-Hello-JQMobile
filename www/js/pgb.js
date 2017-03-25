@@ -9,7 +9,10 @@ function onDeviceReady() {
 
 function businessInfo() {
   info = 'Mateusz Jaskula <br>'
-       + 'Nokia R&D Engineer'
+       + 'Nokia R&D Engineer';
+       
+  document.getElementById("businessDetails").innerHTML = info;	
+
 }
 
 function deviceInfo() {
