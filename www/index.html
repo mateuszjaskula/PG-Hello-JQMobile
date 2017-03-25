@@ -13,11 +13,17 @@
 		<!-- My app main page -->
 		<div data-role="page" id="pageone">
 		  <div data-role="header">
-			<h1>Hello World!</h1>
+			<h1>Tourist Attractions</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<p>Hi, I'm it's my business card</p>
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="businessInfo()">Let me introduce myself!</a>
+<a href="#myPopup" data-rel="popup" data-position-to="window">
+<img src="mazury.jpg" alt="Mazury View" style="width:200px;"></a>
+
+<div data-role="popup" id="myPopup">
+  <img src="mazury.jpg" style="width:800px;height:400px;" alt="Mazury View">
+</div>
+
+
 		  </div>
 		  <div data-role="footer" data-position="fixed">
 			<h1>(c) Mateusz Jaskula</h1>
@@ -30,7 +36,6 @@
 				<h1>It's me</h1>
 			</div>
 			<div role="main" class="ui-content">
-				<p id="deviceDetails">Place for device details ...</p>
 				<p id="businessDetails">Details:</p>
 
 			</div>
